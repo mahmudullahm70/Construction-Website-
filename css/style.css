@@ -1,0 +1,598 @@
+
+ /* first section start... */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: roboto,sans-serif;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.first{
+    height: 710px;
+    width: 100%;
+    background-position: center;
+    background-image:url("../img/img-.1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+}
+
+.first::after{
+    height: 710px;
+    width: 100%;
+    content: "";
+    display: block;
+    background-color: black;
+    position: absolute;
+    opacity: 0.7;
+
+}
+
+.img-two img{
+    height: 615px;
+    width:55%;
+    position: relative;
+    top: 6rem;
+    bottom: 0;
+    left: 59rem;
+    right:0 ;
+    z-index: 1;
+    
+}
+.sub-parent{
+    position: relative;
+    left: 13rem;
+    bottom: 23rem;
+    color: aliceblue;
+    z-index: 1;
+   
+}
+.sub-parent h4{
+    color: rgb(244,203,8);
+    font-size: 20px;
+}
+.sub-parent h2{
+    font-size: 45px;
+    padding: 20px 0;
+}
+.sub-parent p{
+    font-size: 18px;
+    margin-top: 25PX;
+}
+   
+h2::after{
+    content: "";
+    display: block;
+    height:3px;
+    width: 6rem;
+    background-color:  rgb(244,203,8);
+    margin-top: 30px ;
+}
+.reflix button{
+     margin-top: 30px;
+     color: white;   
+}
+.button-one{
+    border-radius: 5px;
+    height: 50px;
+    width: 12rem;
+    background-color: rgb(244,203,8);
+}
+.button-two{
+    border: 2px solid white;
+    background-color: transparent;
+    height:50px ;
+    width:10rem ;
+    border-radius:5px;
+    position: relative;
+   left: 30px;
+}
+.button-two:hover{
+    background-color:white;
+    color: black;
+}
+.button-one:hover{
+    background-color: rgb(222, 186, 4);
+}
+
+
+ /* first scetion end... */
+
+  /* second section start... */
+
+.second{
+    height: 580px;
+    width: 100%;
+    background-color: rgb(255,255,255);
+    
+  }
+  .hero{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    top: 8rem;
+    
+    
+  }
+  .sub-hero{
+    font-size: 18px;
+    position: relative;
+    right: 3rem;
+    bottom: 5rem;
+   
+  }
+  .hero-one h3{
+    color: rgb(244,203,8);
+    font-size: 22px;
+}
+.hero-one h1{
+    margin: 20px 0;
+    font-size: 32px;
+}
+.hero-one::after{
+    content:"" ;
+    display: block;
+    height: 3px;
+    width:  5rem;
+    background-color: rgb(244,203,8);
+}
+.hero-two{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 30px 0;
+    color: rgb(179,179,179);
+    font-style: italic;
+    
+}
+.sow-hero{
+    font-size: 18px;
+    position: relative;
+    left: 3rem;
+}
+.sow-one{
+    color: rgb(110, 110, 110)
+}
+.sow-two button{
+    color: white;
+    border-radius: 5px;
+    height: 50px;
+    width: 12rem;
+    background-color: rgb(244,203,8);
+    margin: 30px 0;
+    border: none;
+}
+.sow-two button:hover{
+    background-color: rgb(222, 186, 4);
+}
+
+/* second section end */
+
+
+
+/* thard section start */
+.thard{
+    height: 330px;
+    width: 100%;
+    
+    background-color: aqua;
+}
+.parent-two{
+    display: flex;
+      
+}
+.parent-two::after{
+    height: 330px;
+    width: 100%;
+    content: "";
+    display: block;
+    background-color: black;
+    position: absolute;
+    opacity: 0.5;
+
+}
+
+/* first img start */
+.thard-one{
+    background-image:url("../img/img-3.jpg");
+    height: 330px;
+    width: 33%;
+    position: relative;
+    padding-right: 5rem;
+    
+    color: white;
+    
+}
+.thard-one h3::after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 5rem;
+    background-color: rgb(244,203,8);
+    margin: 20px 0;
+    position: relative;
+    z-index: 1;
+
+     
+}
+.thard-one p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:100px ;
+    font-size: 15px;
+    position: relative;
+    left: 5rem;
+    top: 13rem;
+    z-index: 1;
+}
+.thard-one h3{
+    position: relative;
+    left: 5rem;
+    top: 12rem;
+    z-index: 1;
+}
+/* first img end */
+/* scend img start */
+
+
+.thard-two{
+    background-image:url("../img/img-4.jpg");
+    height: 330px;
+    width: 33%;
+    position: relative;
+    color: white;
+    padding-right: 5rem;
+    
+}
+.thard-two h3::after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 5rem;
+    background-color: rgb(244,203,8);
+    margin: 20px 0;
+    position: relative;
+    z-index: 1;
+
+     
+}
+
+.thard-two h3{
+    position: relative;
+    left: 5rem;
+    top: 12rem;
+    z-index: 1;
+}
+.thard-two p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:100px ;
+    font-size: 15px;
+    position: relative;
+    left: 5rem;
+    top: 13rem;
+    z-index: 1;
+    }
+
+/* scend img end */
+
+/* thard img start */
+.thard-three{
+    background-image:url("../img/img-5.jpg");
+    height: 330px;
+    width: 33%;
+    position: relative;
+    color: white; 
+    padding-right: 5rem;
+}
+.thard-three h3{
+    position: relative;
+    left: 5rem;
+    top: 12rem;
+    z-index: 1;
+}
+.thard-three h3::after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 5rem;
+    background-color: rgb(244,203,8);
+    margin: 20px 0;
+    position: relative;
+    z-index: 1;
+
+     
+}
+.thard-three p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:100px ;
+    font-size: 15px;
+    position: relative;
+    left: 5rem;
+    top: 13rem;
+    z-index: 1;
+    }
+
+
+/* thard img end */
+
+/* thard section end */
+
+
+/* fourth section start */
+
+.fourth{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(255,255,255);
+}
+
+/* head start */
+
+.head{
+    text-align: center;
+    position: relative;
+    top: 5rem;
+    font-size: 25px;
+    font-weight:20px;
+}
+.head h3{
+    color: rgb(244,203,8);
+    font-size: 25px;
+    font-weight: 30px;
+ 
+}
+.head h1{
+    font-weight: 20px;
+    position: relative;
+    top:10px ;
+
+}
+
+.head::after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 5rem;
+    background-color: rgb(244,203,8);
+    position: relative;
+    top: 3rem;
+    left: 45rem;
+}
+/* head end */
+
+/* parent-three start */
+.parent-three{
+    height:500px ;
+    width:63% ;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    top: 10rem;
+    left: 20rem;
+    font-size: 20px;
+    font-weight: 20px;
+}
+.parent-three p{
+    color: gray;
+    position: relative;
+    top: 15px;
+}
+.parent-three img{
+    border: 2px solid rgb(244,203,8);
+    border-radius: 10px;
+    height: 60px;
+    width: 60px;
+    position: relative;
+    right: 5rem;
+    top: 4rem;
+}
+/* parent-three end */
+
+
+/* fourth section end */
+
+
+
+/* five section start */
+.five{
+    height: 900px;
+    width:100%;
+
+}
+/* head-one start */
+
+.head-one{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(44,44,44);
+    text-align: center;
+    font-size: 25px;
+    font-weight:20px;
+    position: relative;
+    top: 5rem;
+    color: aliceblue;
+}
+.head-one h3{
+    color: rgb(244,203,8);
+    font-size: 25px;
+    position: relative;
+    top: 2rem;
+}
+.head-one h1{
+    position: relative;
+    top: 3rem;
+}
+.head-one::after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 5rem;
+    background-color: rgb(244,203,8);
+    position: relative;
+    top: 5rem;
+    left: 45rem;
+}
+/* head-one end */
+
+/* img start */
+.parent-four{
+    height: 480px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    position:relative ;
+    top: 5rem;
+}
+.parent-four img{
+    width:25%;
+}
+/* img end */
+
+    /* five section end */
+
+
+    /* six section start */
+ .six{
+    height: 550px;
+    width: 100%;
+ }  
+ .parent-four{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+ } 
+ .img-twenty img{
+    height:400px ;
+    width: 500px;
+   
+    
+ }
+ .hero-four{
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    position: relative;
+    left: 4rem;
+    line-height: 1.6;
+;
+ }
+ .hero-four h3{
+    color:rgb(244,203,8) ;
+    font-size: 25px;
+
+ }
+ .hero-four h1{
+    font-size:37px;
+    margin: 10px 0;
+ }
+ #hero-four::after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 6rem;
+    background-color: rgb(244,203,8);
+    margin-top: 20px;
+
+ }
+ .hero-four p{
+    margin-top: 2rem;
+
+ }
+
+ .hero-four button{
+    border-radius: 5px;
+    height: 50px;
+    width: 10rem;
+    background-color: rgb(244,203,8);
+    margin-top: 2rem;
+    border: none;
+    color: white;
+ }
+
+    
+
+
+    /* six section end */
+
+
+
+    .seven{
+        height: 200px;
+        width: 100%;
+    }
+
+    .parent-five{
+        height: 200px;
+        width: 100%;
+        background-image: url("../img/img-21.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: multiply;
+        background-color: #000000b5;
+        padding-top: 90px;
+    }
+   
+    .parent-five{
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+        
+    }
+    .parent-five h1{
+        color:rgb(244,203,8); 
+    }
+.parent-five p{
+    margin-top: 20px;
+}
+.hero-five p::after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 4rem;
+    background-color: rgb(244,203,8);
+  position: relative;
+  top: 20px;
+  left: 50px;
+}
+.hero-six::after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 4rem;
+    background-color: rgb(244,203,8);
+    position: relative;
+  top: 20px;
+  left: 50px;
+}
+.hero-seven::after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 4rem;
+    background-color: rgb(244,203,8);
+    position: relative;
+  top: 20px;
+  left: 50px;
+}
+.hero-eight::after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 4rem;
+    background-color: rgb(244,203,8);
+    position: relative;
+  top: 20px;
+  left: 50px;
+}
