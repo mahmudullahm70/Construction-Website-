@@ -517,16 +517,19 @@ h2::after{
     border: none;
     color: white;
  }
+ .hero-four button:hover{
+    background-color: rgb(222, 186, 4);
+}
 
-    
 
 
     /* six section end */
 
 
 
+    /* seven section start */
     .seven{
-        height: 200px;
+        height: 290px;
         width: 100%;
     }
 
@@ -596,3 +599,393 @@ h2::after{
   top: 20px;
   left: 50px;
 }
+
+/* seven section start */
+.eight{
+    height: 500px;
+    width: 100%;
+}
+.hero-nine{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 15px 20px 0;
+
+}
+.hero-nine h3{
+    color:rgb(244,203,8);
+    font-weight: 20px;
+}
+.hero-nine h1{
+    margin: 20px 0;
+}
+.hero-nine::after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 6rem;
+    background-color: rgb(244,203,8);
+    position: relative;
+   top: 20px;
+   left: 45rem;
+}
+
+.parent-six{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 8rem;
+    text-align: center;   
+    font-family: Roboto,sans-serif; 
+}
+.parent-six img{
+    background-color: rgb(244,203,8);
+    border: 5px solid rgb(244,203,8);
+    padding: 10px;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 4rem;
+}
+.parent-six h1{
+    margin: 20px 0;
+    font-size: 25px;
+  font-weight: 500;
+   
+}
+.parent-six p{
+    margin: 20px 0;
+    /* font-size: 18px; */
+    color: rgb(103, 102, 102);
+   
+    line-height: 30px;
+
+}
+
+
+
+
+
+
+/* eight section end */
+
+
+
+
+
+
+
+
+/* .nine section start */
+
+.nine{
+    height: 800px;
+    width: 100%;
+    background-color: rgb(44,44,44);
+
+}
+
+.parent-nine {
+    color:rgb(244,203,8);
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    top: 50px ;
+
+}
+#parent-nine{
+    color: white;
+    margin: 30px;
+}
+
+.parent-nine::after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 4rem;
+    background-color:rgb(244,203,8);
+    position: relative;
+   top: 10px;
+   left: 45rem;
+}
+
+
+.hero-nine{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    position: relative;
+    top: 70px;
+    font-weight: 200;
+    font-size: 20px;
+}
+.child-hero-three{
+    border: 1px solid white;
+    height: 250px;
+    width: 22%;
+    
+}
+.child-hero-one{
+    border: 1px solid white;
+    height: 250px;
+    width: 22%;
+    
+}
+.child-hero-two{
+    border: 1px solid white;
+    height: 250px;
+    width: 22%;
+}
+.hero-nine p{
+    margin: 30px;
+}
+.child-twenty{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    text-align: center;
+}
+
+.child-twenty img{
+    border-radius: 50px;
+    position: relative;
+    right: 20px;
+    top: 30px;
+}
+
+.hero-fifty{
+    position: relative;
+    right: 21rem;
+
+}
+.hero-sixty{
+    position: relative;
+    right: 3rem;
+
+
+}
+
+.hero-seventy{
+    position: relative;
+    left: 14rem;
+
+}
+.child-twenty h4{
+    position: relative;
+    top: 4rem;
+    right: 2rem;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+}
+#twenty{
+    color: rgb(244,203,8);
+    margin-top: 20px;
+}
+
+
+
+
+
+
+/* .nine section end */
+
+
+
+
+
+/* ten section start */
+.ten{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    
+}
+.parent-seven {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   
+
+ 
+
+}
+.parent-seven img {
+    margin: 70px 50px;
+    
+}
+
+
+/* ten section end */
+
+
+
+
+/* eleven section start */
+.eleven{
+    height: 800px;
+    width: 100%;
+}
+
+.parent-forty{
+    margin: 50px;
+    text-align: center;
+}
+#forty{
+    color:rgb(244,203,8);
+    font-weight: 500;
+}
+.parent-forty::after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 4rem;
+    background-color:rgb(244,203,8);
+    position: relative;
+   top: 10px;
+   left: 43rem;
+}
+.parent-forty h1{
+   font-size: 35px;
+   font-weight: 600;
+   margin: 20px;
+}
+.parent-eleven{
+    display: flex;
+    justify-content: center;
+    margin: 50px 50px;
+  align-items: center;
+    gap: 1rem;
+}
+.parent-eleven img{
+    height: 16rem;
+    width: 24rem;
+    
+}
+.parent-eleven h1{
+    margin:20px;
+    font-weight: 500;
+    font-size: 30px;
+}
+.parent-eleven h5{
+    margin: 20px;
+    color: gray;
+}
+.parent-eleven p{
+    margin:20px ;
+}
+.parent-eleven h4{
+   margin-top: 50px;
+   margin-left: 20px;
+}
+
+.child-eleven::after{
+        content: "";
+        display: block;
+        height: 2px;
+        width: 5rem;
+        background-color:black;
+        position: relative;
+       top: 10px;
+       left: 51rem;
+    }
+    .child-forty::after{
+        content: "";
+        display: block;
+        height: 2px;
+        width: 5rem;
+        background-color:black;
+        position: relative;
+       top: 10px;
+       left: 1rem;
+    }
+    .child-fifty::after{
+        content: "";
+        display: block;
+        height: 2px;
+        width: 5rem;
+        background-color:black;
+        position: relative;
+       top: 10px;
+       right: 49rem;
+    }
+    
+/* eleven section end */
+
+
+
+
+
+
+/* twelve section start */
+
+.twelve{
+    height: 400px;
+    width: 100%;
+}
+
+.parent-twelve{
+    height: 300px;
+    width: 100%;
+    background-color:rgb(244,203,8) ;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+  
+}
+.child-twelve{
+    margin: 50px 50px;
+    
+}
+.child-twelve h1{
+    font-size: 45px;
+    font-weight: 500;
+    
+}
+.child-twelve p{
+    margin: 30px 0;
+    
+}
+
+.child-thirty{
+    height: 50px;
+    width: 10rem;
+    border: 2px solid white;
+    margin-top: 3rem;
+    border-radius: 5px;
+}
+
+.child-thirty button{
+      
+       height: 50px;
+       width: 10rem;
+      
+       background-color: rgb(244,203,8);
+       
+       border: none;
+       color: white;
+    
+}
+.child-thirty button:hover{
+       background-color:white;
+       color: black;
+   }
+.parent-thirty{
+    background-color:rgb(51,51,51);
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    
+}
+.parent-thirty a{
+    color:  rgb(244,203,8);
+    position: relative;
+    top: 30px;
+
+}
+#twelve{
+    color:white ;
+}
+    
+
+/* twelve section end */
