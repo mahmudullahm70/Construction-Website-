@@ -81,6 +81,7 @@ h2::after{
     border-radius: 5px;
     height: 50px;
     width: 12rem;
+    border: none;
     background-color: rgb(244,203,8);
 }
 .button-two{
@@ -600,27 +601,31 @@ h2::after{
   left: 50px;
 }
 
-/* seven section start */
+/* eight section start */
 .eight{
     height: 500px;
     width: 100%;
 }
 .hero-nine{
     height: 200px;
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
     font-size: 1.5rem;
     margin: 15px 20px 0;
 
 }
-.hero-nine h3{
+#hero{
     color:rgb(244,203,8);
     font-weight: 20px;
+    margin-left: 30rem;
 }
-.hero-nine h1{
-    margin: 20px 0;
+#nine{
+    color: black;
+    position: relative;
+    top: 3rem;
+    right:26rem;
 }
-.hero-nine::after{
+#nine::after{
     content: "";
     display: block;
     height: 3px;
@@ -628,7 +633,8 @@ h2::after{
     background-color: rgb(244,203,8);
     position: relative;
    top: 20px;
-   left: 45rem;
+   left: 6rem;
+   
 }
 
 .parent-six{
@@ -755,21 +761,22 @@ h2::after{
 
 .hero-fifty{
     position: relative;
-    right: 21rem;
+    right: 18rem;
 
 }
 .hero-sixty{
     position: relative;
-    right: 3rem;
+    left:2rem;
 
 
 }
 
 .hero-seventy{
     position: relative;
-    left: 14rem;
+    left: 22rem;
 
 }
+
 .child-twenty h4{
     position: relative;
     top: 4rem;
@@ -800,18 +807,24 @@ h2::after{
     width: 100%;
     background-color: black;
     
+    
 }
 .parent-seven {
    display: flex;
-   justify-content: center;
-   gap: 20px;
-   
+ justify-content:center;
+ 
 
+   
+    
  
 
 }
 .parent-seven img {
-    margin: 70px 50px;
+    display: flex;
+   position: relative;
+   top: 70px;
+   padding: 0 30px;
+   
     
 }
 
@@ -950,26 +963,25 @@ h2::after{
 .child-thirty{
     height: 50px;
     width: 10rem;
-    border: 2px solid white;
-    margin-top: 3rem;
+
+    margin-top: 4rem;
     border-radius: 5px;
 }
-
-.child-thirty button{
-      
-       height: 50px;
-       width: 10rem;
-      
-       background-color: rgb(244,203,8);
-       
-       border: none;
-       color: white;
-    
+.child-thirty a{
+    background-color:  rgb(244,203,8) ;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 3px;
 }
-.child-thirty button:hover{
-       background-color:white;
-       color: black;
-   }
+.child-thirty a:hover{
+    background-color: white;
+    color: black;
+
+}
+
 .parent-thirty{
     background-color:rgb(51,51,51);
     height: 100px;
